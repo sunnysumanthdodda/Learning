@@ -32,6 +32,7 @@ public class Planet {
         System.out.print("Enter the desired number: ");
         int n = sc.nextInt();
         System.out.println(number(n));
+        System.out.println(number(n*n));
         sc.close();
     }
 }
