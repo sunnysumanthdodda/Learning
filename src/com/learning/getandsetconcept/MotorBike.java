@@ -9,4 +9,8 @@ public class MotorBike {
     public void setSpeed(int speed) {
         this.speed = speed;
     }
+
+    public void increaseSpeed(int howmuch){
+        this.speed+= 100;
+    }
 }
