@@ -6,8 +6,12 @@ public class MotorBikeRunner {
         MotorBike honda = new MotorBike();
 
         ducati.setSpeed(90);
-        System.out.println("Speed of ducati is: " + ducati.getSpeed() + " mph");
+        System.out.println("Speed of ducati before increasing is: " + ducati.getSpeed() + " mph");
+        ducati.increaseSpeed(100);
+        System.out.println("Speed of ducati after increasing is: " + ducati.getSpeed() + " mph");
         honda.setSpeed(60);
-        System.out.println("Speed of honda is: " + honda.getSpeed() + " mph");
+        System.out.println("Speed of honda before increasing is: " + honda.getSpeed() + " mph");
+        honda.increaseSpeed(100);
+        System.out.println("Speed of honda after increasing is: " + honda.getSpeed() + " mph");
     }
 }
