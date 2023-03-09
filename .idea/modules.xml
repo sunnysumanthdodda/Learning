@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Java_Training.iml" filepath="$PROJECT_DIR$/Java_Training.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Learning.iml" filepath="$PROJECT_DIR$/Learning.iml" />
+>>>>>>> 4b659c2 (Learning)
     </modules>
   </component>
 </project>
