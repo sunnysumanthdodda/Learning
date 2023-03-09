@@ -5,7 +5,7 @@ public class MotorBikeRunner {
         MotorBike ducati = new MotorBike();
         MotorBike honda = new MotorBike();
 
-        ducati.setSpeed(100);
+        ducati.setSpeed(90);
         System.out.println("Speed of ducati is: "+ducati.getSpeed()+" mph");
         honda.setSpeed(60);
         System.out.println("Speed of honda is: "+honda.getSpeed()+" mph");
