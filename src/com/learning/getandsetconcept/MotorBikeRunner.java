@@ -18,9 +18,9 @@ public class MotorBikeRunner {
         System.out.println("Speed of honda after increasing is: " + honda.getSpeed() + " mph");
 
         // Decreasing speed for ducati and honda
-        ducati.decreaseSpeed(50);
+        ducati.decreaseSpeed(70);
         System.out.println("Speed of ducati after decreasing is: " + ducati.getSpeed() + " mph");
-        honda.decreaseSpeed(50);
+        honda.decreaseSpeed(70);
         System.out.println("Speed of honda after decreasing is: " + honda.getSpeed() + " mph");
     }
 }
