@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Learning">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Constructor concept">
       <change beforePath="$PROJECT_DIR$/src/com/learning/constructor/BookRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/constructor/BookRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678363943690</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Constructor concept">
+      <created>1678444900442</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678444900442</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
