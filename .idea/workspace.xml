@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Constructor concept">
-      <change beforePath="$PROJECT_DIR$/src/com/learning/constructor/BookRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/constructor/BookRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/primitivedatatypes/BiRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/primitivedatatypes/NumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BookRunner">
+  <component name="RunManager" selected="Application.NumberRunner">
     <configuration name="BookRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.constructor.BookRunner" />
       <module name="Learning" />
@@ -99,10 +101,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.primitivedatatypes.NumberRunner" />
+      <module name="Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.primitivedatatypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberRunner" />
         <item itemvalue="Application.BookRunner" />
-        <item itemvalue="Application.MotorBikeRunner" />
         <item itemvalue="Application.MotorBikeRunner" />
         <item itemvalue="Application.MotorBikeRunner" />
         <item itemvalue="Application.MotorBikeRunner" />
