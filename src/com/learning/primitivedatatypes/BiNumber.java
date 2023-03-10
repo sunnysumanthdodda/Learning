@@ -1,6 +1,6 @@
 package com.learning.primitivedatatypes;
 
-public class BiRunner {
+public class BiNumber {
 
     private double a;
     private double b;
@@ -13,7 +13,7 @@ public class BiRunner {
         return b;
     }
 
-    BiRunner(int a, int b){
+    BiNumber(int a, int b){
         this.a = a;
         this.b = b;
     }
