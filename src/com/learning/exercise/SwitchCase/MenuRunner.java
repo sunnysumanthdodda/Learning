@@ -1,4 +1,4 @@
-package com.learning.exercise;
+package com.learning.exercise.SwitchCase;
 
 import java.util.Scanner;
 
