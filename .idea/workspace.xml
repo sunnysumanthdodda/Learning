@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Character Data Type Concept" />
+    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Exercise">
+      <change afterPath="$PROJECT_DIR$/src/com/learning/exercise/MenuRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +77,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyCharRunner">
+  <component name="RunManager" selected="Application.MenuRunner">
     <configuration name="BookRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.constructor.BookRunner" />
       <module name="Learning" />
@@ -88,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotorBikeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.getandsetconcept.MotorBikeRunner" />
+    <configuration name="MenuRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.exercise.MenuRunner" />
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.getandsetconcept.*" />
+          <option name="PATTERN" value="com.learning.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MenuRunner" />
         <item itemvalue="Application.MyCharRunner" />
         <item itemvalue="Application.SimpleInterestCalculatorRunner" />
         <item itemvalue="Application.NumberRunner" />
         <item itemvalue="Application.BookRunner" />
-        <item itemvalue="Application.MotorBikeRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678535795771</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Character Data Type Concept">
+      <created>1678535813340</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678535813340</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +239,8 @@
     <MESSAGE value="Encapsulation Level 2" />
     <MESSAGE value="Constructor concept" />
     <MESSAGE value="Character Data Type Concept" />
-    <option name="LAST_COMMIT_MESSAGE" value="Character Data Type Concept" />
+    <MESSAGE value="Exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
