@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Exercise">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/exercise/SwitchCase/NameofDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/exercise/SwitchCase/NameofMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/exercise/SwitchCase/SwitchCaseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/exercise/SwitchCase/WeekDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/exercise/DoWhile/DoWhileExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/loops/DoWhileRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/loops/MyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/loops/MyNumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/loops/WhileNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learning/exercise/MenuRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/exercise/SwitchCase/MenuRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +80,37 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SwitchCaseExample">
+  <component name="RunManager" selected="Application.DoWhileExercise">
+    <configuration name="DoWhileExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.exercise.DoWhile.DoWhileExercise" />
+      <module name="Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.exercise.DoWhile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoWhileRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.loops.DoWhileRunner" />
+      <module name="Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MenuRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.exercise.SwitchCase.MenuRunner" />
       <module name="Learning" />
@@ -98,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCharRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.primitivedatatypes.MyCharRunner" />
+    <configuration name="MyNumberRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.loops.MyNumberRunner" />
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.primitivedatatypes.*" />
+          <option name="PATTERN" value="com.learning.loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,38 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.primitivedatatypes.NumberRunner" />
+    <configuration name="WhileNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.loops.WhileNumber" />
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.primitivedatatypes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleInterestCalculatorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.primitivedatatypes.SimpleInterestCalculatorRunner" />
-      <module name="Learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.primitivedatatypes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwitchCaseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.exercise.SwitchCase.SwitchCaseExample" />
-      <module name="Learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.exercise.SwitchCase.*" />
+          <option name="PATTERN" value="com.learning.loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SwitchCaseExample" />
+        <item itemvalue="Application.DoWhileExercise" />
         <item itemvalue="Application.MenuRunner" />
-        <item itemvalue="Application.MyCharRunner" />
-        <item itemvalue="Application.SimpleInterestCalculatorRunner" />
-        <item itemvalue="Application.NumberRunner" />
+        <item itemvalue="Application.DoWhileRunner" />
+        <item itemvalue="Application.WhileNumber" />
+        <item itemvalue="Application.MyNumberRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678537899970</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exercise">
+      <created>1678543067294</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678543067294</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
