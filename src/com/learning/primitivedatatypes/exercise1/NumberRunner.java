@@ -1,4 +1,4 @@
-package com.learning.primitivedatatypes;
+package com.learning.primitivedatatypes.exercise1;
 
 public class NumberRunner {
     public static void main(String[] args) {
