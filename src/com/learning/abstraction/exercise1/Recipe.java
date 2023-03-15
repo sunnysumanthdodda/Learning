@@ -1,4 +1,4 @@
-package com.learning.abstraction;
+package com.learning.abstraction.exercise1;
 
 public class Recipe extends AbstractRecipe{
 
