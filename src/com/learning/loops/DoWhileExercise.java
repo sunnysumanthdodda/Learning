@@ -1,4 +1,4 @@
-package com.learning.exercise.DoWhile;
+package com.learning.loops;
 
 import java.util.Scanner;
 

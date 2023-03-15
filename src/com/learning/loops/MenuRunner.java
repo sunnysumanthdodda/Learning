@@ -1,4 +1,4 @@
-package com.learning.exercise.SwitchCase;
+package com.learning.loops;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.learning.exercise.SwitchCase;
+package com.learning.loops;
 
 public class NameofDay {
     public static String determinenameOfDay(int number) {

@@ -1,4 +1,4 @@
-package com.learning.exercise.SwitchCase;
+package com.learning.loops;
 
 public class NameofMonth {
     public static String determinenameOfMonth(int number) {
