@@ -1,4 +1,4 @@
-package com.learning.primitivedatatypes;
+package com.learning.primitivedatatypes.exercise2;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.learning.primitivedatatypes;
+package com.learning.primitivedatatypes.exercise3;
 
 import java.math.BigDecimal;
 

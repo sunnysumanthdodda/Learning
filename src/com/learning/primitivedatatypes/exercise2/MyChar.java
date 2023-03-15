@@ -1,4 +1,4 @@
-package com.learning.primitivedatatypes;
+package com.learning.primitivedatatypes.exercise2;
 
 public class MyChar {
     private final char ch;
