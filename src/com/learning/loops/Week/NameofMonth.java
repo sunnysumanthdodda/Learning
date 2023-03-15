@@ -1,4 +1,4 @@
-package com.learning.loops;
+package com.learning.loops.Week;
 
 public class NameofMonth {
     public static String determinenameOfMonth(int number) {

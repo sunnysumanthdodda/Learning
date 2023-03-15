@@ -1,4 +1,4 @@
-package com.learning.loops;
+package com.learning.loops.Week;
 
 public class NameofDay {
     public static String determinenameOfDay(int number) {
