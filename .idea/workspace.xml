@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Loops Concept Exercise">
-      <change afterPath="$PROJECT_DIR$/src/com/learning/arrays/StringWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/arrays/StringWeekRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/arrays/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/arrays/StudentRunner.java" afterDir="false" />
+    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Moved from one package to another">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/abstraction/AbstractRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/abstraction/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/abstraction/RecipeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/inheritance/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/inheritance/Individual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/inheritance/MainRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/inheritance/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +55,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -65,30 +72,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "extract.method.default.visibility": "private",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
-  <component name="RunManager" selected="Application.StringWeekRunner">
-    <configuration name="DoWhileExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.exercise.DoWhile.DoWhileExercise" />
+}]]></component>
+  <component name="RunManager" selected="Application.RecipeRunner">
+    <configuration name="MainRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.inheritance.MainRunner" />
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.exercise.DoWhile.*" />
+          <option name="PATTERN" value="com.learning.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhileRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.loops.DoWhileRunner" />
+    <configuration name="MenuRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.loops.MenuRunner" />
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
@@ -109,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.exercise.SwitchCase.MenuRunner" />
+    <configuration name="RecipeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.abstraction.RecipeRunner" />
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.exercise.SwitchCase.*" />
+          <option name="PATTERN" value="com.learning.abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecipeRunner" />
+        <item itemvalue="Application.MainRunner" />
+        <item itemvalue="Application.MenuRunner" />
         <item itemvalue="Application.StringWeekRunner" />
         <item itemvalue="Application.StudentRunner" />
-        <item itemvalue="Application.DoWhileExercise" />
-        <item itemvalue="Application.MenuRunner" />
-        <item itemvalue="Application.DoWhileRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678543067294</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Moved from one package to another">
+      <created>1678839078634</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678839078634</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +278,8 @@
     <MESSAGE value="Constructor concept" />
     <MESSAGE value="Character Data Type Concept" />
     <MESSAGE value="Exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise" />
+    <MESSAGE value="Moved from one package to another" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved from one package to another" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
