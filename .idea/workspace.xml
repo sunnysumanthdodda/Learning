@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Interface concept">
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/list/AscendingStudentCompartor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/list/DescendingStudentCompartor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/list/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/list/StudentColllectionRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/map/MapRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/map/exercise/CharCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/map/exercise/StringandCharCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/map/exercise/WordCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/queue/QueueRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/queue/StringLengthComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/set/SetRunner.java" afterDir="false" />
+    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Collections concept">
       <change afterPath="$PROJECT_DIR$/src/com/learning/generics/GenericsRunner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/learning/generics/MyCustomList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecipeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.abstraction.RecipeRunner" />
+    <configuration name="StringandCharCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.map.exercise.StringandCharCounter" />
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.abstraction.*" />
+          <option name="PATTERN" value="com.learning.collections.map.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringandCharCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.collections.map.exercise.StringandCharCounter" />
+    <configuration name="StudentColllectionRunner" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.list.StudentColllectionRunner" />
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.collections.map.exercise.*" />
+          <option name="PATTERN" value="com.learning.collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,7 +183,6 @@
         <item itemvalue="Application.StringandCharCounter" />
         <item itemvalue="Application.MapRunner" />
         <item itemvalue="Application.QueueRunner" />
-        <item itemvalue="Application.RecipeRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678870834056</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Collections concept">
+      <created>1679187063581</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679187063581</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +318,8 @@
     <MESSAGE value="Moved from one package to another" />
     <MESSAGE value="Abstraction concept" />
     <MESSAGE value="Interface concept" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface concept" />
+    <MESSAGE value="Collections concept" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections concept" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
