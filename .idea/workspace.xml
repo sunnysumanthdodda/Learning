@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Collections concept">
-      <change afterPath="$PROJECT_DIR$/src/com/learning/generics/GenericsRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/generics/MyCustomList.java" afterDir="false" />
+    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Generics concept">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e78ddcb0-8f39-4664-9923-d4de2d8c1237.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e78ddcb0-8f39-4664-9923-d4de2d8c1237.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learning/generics/GenericsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/generics/GenericsRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +31,17 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "MERGED",
-      "author": "sunnysumanthdodda"
+      &quot;state&quot;: &quot;MERGED&quot;,
+      &quot;author&quot;: &quot;sunnysumanthdodda&quot;
     }
   ],
-  "lastFilter": {
-    "state": "OPEN"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -78,12 +79,13 @@
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -195,6 +197,10 @@
       <option name="presentableId" value="Default" />
       <updated>1678361314754</updated>
       <workItem from="1678361315817" duration="2134000" />
+      <workItem from="1679379632612" duration="5017000" />
+      <workItem from="1680207304587" duration="48000" />
+      <workItem from="1680207357293" duration="104000" />
+      <workItem from="1680207467099" duration="1932000" />
     </task>
     <task id="LOCAL-00001" summary="Learning">
       <created>1678361462806</created>
@@ -280,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679187063581</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Generics concept">
+      <created>1679379567043</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679379567043</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +310,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -319,7 +332,8 @@
     <MESSAGE value="Abstraction concept" />
     <MESSAGE value="Interface concept" />
     <MESSAGE value="Collections concept" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections concept" />
+    <MESSAGE value="Generics concept" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics concept" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
