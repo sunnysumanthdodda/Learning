@@ -5,7 +5,7 @@ public class BookRunner {
 
         Book jkrolling = new Book(50);
 
-        Book shakespeare = new Book();
+        Book shakespeare = new Book(75);
 
         Book howtolearncoding = new Book(200);
 

@@ -6,9 +6,6 @@ public class Book {
 
 
     // This keyword used to call other constructor
-    Book(){
-        this(75);
-    }
 
     // Constructor class
     Book(int copies){
