@@ -1,7 +1,5 @@
 package com.learning.arrays;
 
-import java.util.Arrays;
-
 public class Sample {
     public static void main(String[] args) {
         String sentence = "Java is the toughest language to learn and crack the interview";
