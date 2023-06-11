@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Arrays concept">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learning/inheritance/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/inheritance/Employee.java" afterDir="false" />
-    </list>
+    <list default="true" id="f2069032-d301-446b-b15b-ab20d6d93576" name="Changes" comment="Arrays concept" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,6 +219,7 @@
       <workItem from="1683061391378" duration="227000" />
       <workItem from="1683061648785" duration="5948000" />
       <workItem from="1684982337902" duration="1199000" />
+      <workItem from="1686436284702" duration="840000" />
     </task>
     <task id="LOCAL-00001" summary="Learning">
       <created>1678361462806</created>
