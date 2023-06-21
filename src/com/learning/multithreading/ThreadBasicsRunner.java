@@ -7,6 +7,7 @@ public class ThreadBasicsRunner {
     static class Task1 extends Thread{
         public void run(){
             IntStream.range(10,19).forEach(e->System.out.print(e+" "));
+            System.out.println();
         }
     }
 
