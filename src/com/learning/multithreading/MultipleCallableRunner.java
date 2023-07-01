@@ -14,7 +14,7 @@ public class MultipleCallableRunner {
                 ,new CallableTask("Dodda"));
         List<Future<String>> results = executorService.invokeAll(tasks);
         for(Future<String> result:results){
-            Thread.sleep(1000);
+            Thread.sleep(500);
             System.out.println(result.get());
         }
         String result = executorService.invokeAny(tasks);

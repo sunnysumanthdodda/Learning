@@ -1,6 +1,6 @@
-package com.learning.modularization.sorting;
+package com.learning.javachanges8to16.sorting;
 
-import com.learning.modularization.algorithm.BubbleSort;
+import com.learning.javachanges8to16.algorithm.BubbleSort;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.learning.modularization.consumer;
+package com.learning.javachanges8to16.consumer;
 
-import com.learning.modularization.sorting.MySortingUtil;
+import com.learning.javachanges8to16.sorting.MySortingUtil;
 
 import java.util.List;
 import java.util.logging.Logger;
