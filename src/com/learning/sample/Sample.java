@@ -1,30 +1,13 @@
 package com.learning.sample;
 
-public class Sample {
-    public static void main(String[] args) {
-        String original = "Hello, World!";
-        String reversed = reverseString(original);
-        System.out.println("Original: " + original);
-        System.out.println("Reversed: " + reversed);
-    }
-
-    public static String reverseString(String input) {
-        // Check if the input string is null or empty
-        if (input == null || input.isEmpty()) {
-            return input;
+class Sample {
+    public static void main(String[] args){
+        String s = "Sunny Sumanth Dodda";
+        for(int i=0;i<s.length();i++){
+            if(i==s.length()-1) System.out.print(s.charAt(i));
+            else if(s.charAt(i)==' ') System.out.print(" ");
+            else if(s.charAt(i+1)==' ') System.out.print(s.charAt(i));
+            else System.out.print(s.charAt(i)+",");
         }
-
-        // Convert the string to a character array
-        char[] charArray = input.toCharArray();
-
-        // Initialize an empty string to store the reversed result
-        String reversed = "";
-
-        // Iterate through the character array in reverse order
-        for (int i = charArray.length - 1; i >= 0; i--) {
-            reversed+= charArray[i]; // Append the character to the reversed string
-        }
-
-        return reversed;
     }
 }
