@@ -5,9 +5,6 @@ public class Employee extends Person {
     private String EmployerName;
     private String salary;
 
-    public Employee(String name){
-        super(name);
-    }
 
     public String getTitle() {
         return title;

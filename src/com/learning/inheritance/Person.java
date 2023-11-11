@@ -2,16 +2,11 @@ package com.learning.inheritance;
 
 public class Person extends Individual {
 
-    private String name;
     private String email;
     private String contactNum;
 
-    public Person(String name) {
-        this.name = name;
-    }
-
     public String getName() {
-        return name;
+        return getFirstname()+" "+getLastname();
     }
 
     public void setEmail(String email) {

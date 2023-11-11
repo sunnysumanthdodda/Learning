@@ -2,7 +2,7 @@ package com.learning.inheritance;
 
 public class MainRunner {
     public static void main(String[] args) {
-        Employee employee = new Employee("Sunny Sumanth Dodda");
+        Employee employee = new Employee();
         employee.setFirstname("Sunny Sumanth");
         employee.setLastname("Dodda");
         employee.setEmail("sunnysumanthdodda@gmail.com");
