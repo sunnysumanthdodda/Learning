@@ -1,4 +1,4 @@
-package com.learning.inheritance;
+package com.learning.inheritance.employee;
 
 public class MainRunner {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.learning.inheritance;
+package com.learning.inheritance.employee;
 
 public class Person extends Individual {
 
