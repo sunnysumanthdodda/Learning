@@ -14,7 +14,7 @@ public class LambdaExpressions {
 
         A obj = i -> System.out.println("in show");
         obj.show(7);
-        B obj1 = (a, b) ->  a+b;
+        B obj1 = Integer::sum;
         System.out.println(obj1.add(7,14));
     }
 }
