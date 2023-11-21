@@ -28,7 +28,7 @@ class Amount1{
 public class CustomizedExceptionRunner {
     public static void main(String[] args) throws Amount1.CurrenciesdonoMatchException {
         Amount1 amount1 = new Amount1("USD", 40);
-        Amount1 amount2 = new Amount1("INR", 30);
+        Amount1 amount2 = new Amount1("USD", 30);
         amount1.add(amount2);
         System.out.println(amount1);
     }
