@@ -46,6 +46,6 @@ public class IPRestore {
     }
 
     public static void main(String[] args) {
-        System.out.println(restoreIp("0000"));
+        System.out.println(restoreIp("25525511135"));
     }
 }
