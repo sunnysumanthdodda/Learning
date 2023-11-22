@@ -1,21 +1,40 @@
 package com.learning.sample;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.*;
 
-class Solution {
-    public List<List<Integer>> twoSum(int[] nums, int target) {
-        List<List<Integer>> list1 = new ArrayList<>();
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i; j < nums.length; j++) {
-                List<Integer> list = new ArrayList<>();
-                if (nums[i] + nums[j] == target) {
-                    list.add(nums[i]);
-                    list.add(nums[j]);
-                    list1.add(list);
-                }
+class Result {
+
+    public static long repeatedString(String s, long n) {
+        String result = "";
+        int count = 0;
+        if(s.equals("a")) return n;
+        else{
+            for(int i=0;i<n;i++){
+                result+=s.charAt(i);
             }
+            for(int i=0;i<result.length();i++){
+                if(result.charAt(i)=='a') count++;
+            }
+            return count;
         }
-        return list1;
+    }
+}
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        String s = bufferedReader.readLine();
+
+        long n = Long.parseLong(bufferedReader.readLine().trim());
+
+        long result = Result.repeatedString(s, n);
+
+        bufferedWriter.write(String.valueOf(result));
+        bufferedWriter.newLine();
+
+        bufferedReader.close();
+        bufferedWriter.close();
     }
 }
