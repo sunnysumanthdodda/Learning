@@ -1,4 +1,4 @@
-package com.learning.sample;
+package com.learning.leetcode;
 
 public class Sample {
     public static void main(String[] args) {

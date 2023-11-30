@@ -1,4 +1,4 @@
-package com.learning.sample;
+package com.learning.leetcode;
 
 public class LeetCode {
     public int titleToNumber(String columnTitle) {
