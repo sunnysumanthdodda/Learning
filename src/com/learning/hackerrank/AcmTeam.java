@@ -1,15 +1,9 @@
 package com.learning.hackerrank;
 
-import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
+import java.util.*;
 public class AcmTeam {
     public static void main(String[] args) {
         List<String> topic = new ArrayList<>(Arrays.asList("10101", "11100", "11010", "00101"));
-        List<Integer> result = new ArrayList<>(Arrays.asList());
         List<Integer> r1 = new ArrayList<>();
         int teamcount = 0, max = 0;
         for (int i = 0; i < topic.size(); i++) {
