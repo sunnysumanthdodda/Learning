@@ -1,6 +1,5 @@
 package com.learning.hackerrank;
 
-import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.*;
 
@@ -20,10 +19,5 @@ public class KaprekarNumbers {
                 }
             }
         if(flag==0) System.out.print("INVALID RANGE");
-//        BigInteger square = new BigInteger(String.valueOf(BigInteger.valueOf((long) n *n)));
-//        String s = String.valueOf(square);
-//        System.out.println(s);
-//        int sum = Integer.parseInt(s.substring(0,s.length()/2)) + Integer.parseInt(s.substring(s.length()/2));
-//        System.out.print(sum);
     }
 }
