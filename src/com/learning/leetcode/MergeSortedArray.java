@@ -12,6 +12,7 @@ public class MergeSortedArray {
         int[] nums1 = {1};
         int[] nums2 = {0};
         int[] nums = {5};
+        int[] nums4 = {5,6,7};
         merge(nums1,nums2);
     }
 }
