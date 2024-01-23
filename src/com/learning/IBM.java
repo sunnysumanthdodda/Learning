@@ -3,7 +3,7 @@ package com.learning;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Solution {
+public class IBM {
 
     public static List<String> getResponses(List<String> validAuthTokens, List<List<String>> requests) {
         List<String> responses = new ArrayList<>();
