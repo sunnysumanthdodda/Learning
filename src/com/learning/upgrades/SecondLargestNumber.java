@@ -6,11 +6,11 @@ public class SecondLargestNumber {
         if(arr.length==0 || arr.length==1) return -1;
         int max = Integer.MIN_VALUE;
         int smax = Integer.MIN_VALUE;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]>max) {
+        for (int j : arr) {
+            if (j > max) {
                 smax = max;
-                max = arr[i];
-            }else if(arr[i]>smax && arr[i]!=max) smax = arr[i];
+                max = j;
+            } else if (j > smax && j != max) smax = j;
         }
         return smax;
     }
