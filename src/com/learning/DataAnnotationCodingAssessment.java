@@ -6,25 +6,26 @@ import java.io.IOException;
 import java.util.*;
 
 public class DataAnnotationCodingAssessment {
+    static Map<Integer, String> inputMap = null;
     public static void main(String[] args) {
         //Reading input from the path
-        String filePath = "/Users/sunnysumanthdodda/Desktop/coding_qual_input.txt";
-        StringBuilder output = new StringBuilder();
-        Map<Integer, String> inputMap = null;
+        String filePath = "/Users/sunnysumanthdodda/Desktop/Projects/Learning/coding_qual_input.txt";
         try {
             inputMap = convertFiletoReadableMap(filePath);
-            System.out.println("Input file converted into Map: " + inputMap);
         } catch (IOException e) {
             System.err.println("Error reading file: " + e.getMessage());
         }
         // declaring inputMap as not null
         assert inputMap!=null;
-        List<List<Integer>> pyramid = getValuesfromPyramid(inputMap.size());
-        //Iterating through the pyramid list to get the last element values
+        System.out.println(getDecodedMessage(getValuesfromPyramid(inputMap.size())));
+    }
+
+    private static StringBuilder getDecodedMessage(List<List<Integer>> pyramid) {
+        StringBuilder output = new StringBuilder();
         for (List<Integer> integers : pyramid) {
             output.append(inputMap.get(integers.get(integers.size() - 1))).append(" ");
         }
-        System.out.println(output);
+        return output;
     }
 
     private static List<List<Integer>> getValuesfromPyramid(int size) {
