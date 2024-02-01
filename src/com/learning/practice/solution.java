@@ -1,4 +1,4 @@
-package com.learning;// Import the necessary Java classes.
+package com.learning.practice;// Import the necessary Java classes.
 import java.util.*;
 import java.util.List;
 

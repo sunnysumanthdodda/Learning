@@ -1,4 +1,4 @@
-package com.learning;
+package com.learning.practice;
 
 import java.util.*;
 import java.util.stream.Collectors;
