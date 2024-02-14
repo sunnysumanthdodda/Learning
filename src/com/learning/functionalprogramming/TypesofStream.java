@@ -4,7 +4,11 @@ import java.util.*;
 
 public class TypesofStream {
     public static void main(String[] args) {
-        List<Integer> numbers = List.of(3,7,3,5,83,4567,83,10,14,17,17,25,26);
+        List<Integer> numbers = new ArrayList<>();
+//        Random random = new Random();
+        for(int i=1;i<=20;i++){
+            numbers.add(new Random().nextInt(100));
+        }
         printSortedNumbers(numbers);
         System.out.println();
         printDistinctUniqueNumbers(numbers);
