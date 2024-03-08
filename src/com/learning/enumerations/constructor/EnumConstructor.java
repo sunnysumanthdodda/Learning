@@ -3,7 +3,7 @@ package com.learning.enumerations.constructor;
 enum Laptop{
     Macbook(1499),DellXPS(1799),Surface(1599);
 
-    private int price;
+    private final int price;
 
     Laptop(int price) {
         this.price = price;
