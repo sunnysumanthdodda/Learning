@@ -21,6 +21,10 @@ public class DynamicArray {
         arrayList.add(new ArrayList<>());
         arrayList.add(List.of(20,22,23));
         arrayList.add(List.of(20,22,24));
+        arrayList.add(List.of(20,22,23));
+        arrayList.add(List.of(20,22,23));
+        arrayList.add(List.of(20,22,23));
+
 
         queriesList.add(List.of(1,3));
         queriesList.add(List.of(3,4));
