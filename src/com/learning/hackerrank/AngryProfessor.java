@@ -10,7 +10,12 @@ public class AngryProfessor {
             if (integer < 0) early++;
         }
         System.out.println(early);
-        if(early>=k) System.out.println("NO");
-        else System.out.println("YES");
+        if(early>=k) {
+            System.out.println("NO");
+        }
+        else if(early==k) {
+            System.out.println("YES");
+        }
+        else System.out.println("GIT");
     }
 }

@@ -2,10 +2,6 @@ package com.learning.hackerrank;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class DynamicArray {
     static void main() {
@@ -24,6 +20,11 @@ public class DynamicArray {
         arrayList.add(List.of(37,34,36,52));
         arrayList.add(new ArrayList<>());
         arrayList.add(List.of(20,22,23));
+        arrayList.add(List.of(20,22,24));
+        arrayList.add(List.of(20,22,23));
+        arrayList.add(List.of(20,22,23));
+        arrayList.add(List.of(20,22,23));
+
 
         queriesList.add(List.of(1,3));
         queriesList.add(List.of(3,4));
